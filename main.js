@@ -20,7 +20,7 @@ camera.position.z = 5;
 
 // Charger le modèle
 const loader = new GLTFLoader();
-loader.load('/models/chiku_tattoo.glb', (gltf) => {
+loader.load('public/models/chiku_tattoo.glb', (gltf) => {
     scene.add(gltf.scene);
     gltf.scene.scale.set(0.5, 0.5, 0.5);
     gltf.scene.position.set(0, 0, 0);
